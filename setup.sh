@@ -16,8 +16,8 @@ sleep 5
 SCRIPT_NAME=apt-install-offline
 
 ##
-ORIGINAL_WORKING_DIR="$(pwd)"/
-INSTALL_DIR_PARENT="$(pwd)"/
+ORIGINAL_WORKING_DIR="$(pwd)/"
+INSTALL_DIR_PARENT="$(pwd)/"
 INSTALL_DIR=${INSTALL_DIR_PARENT}${SCRIPT_NAME}/
 
 ## Pre-requisites
