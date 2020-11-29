@@ -10,7 +10,7 @@ The provided `setup.sh` auto-installs/updates the code.
 # 1. Install the tool
 On an Internet-connected PC, `cd` to your USB flash drive and run this:
 
-`sudo apt install curl -y -qq && curl -s https://raw.githubusercontent.com/TurboLabIt/apt-install-offline/master/setup.sh | sudo sh`
+`sudo apt install curl -y && curl -s https://raw.githubusercontent.com/TurboLabIt/apt-install-offline/master/setup.sh?$(date +%s) | sudo sh`
 
 # 2. Collect
 Connect the USB flash drive to your offline PC and collect the file(s) needed to install the package(s) you want:
